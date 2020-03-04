@@ -89,18 +89,19 @@ public class disparar{
     public void dispararParaAutonomo(){
 
             motorDisparar.set(1);
-            
-            Timer.delay(3);
 
-            motorAcercar.set(.5);
+            Timer.delay(2);
 
-            motorSubirPelotas.set(ControlMode.PercentOutput, .3);
+            motorAcercar.set(.4);
+            motorSubirPelotas.set(ControlMode.PercentOutput,.3);
 
-            Timer.delay(7);
+    }
 
-            motorDisparar.set(0);
-            motorAcercar.set(0);
-            motorSubirPelotas.set(ControlMode.PercentOutput, 0);
+    public void detenerDispararParaAutonomo(){
+
+        motorDisparar.set(0);
+        motorAcercar.set(0);
+        motorSubirPelotas.set(ControlMode.PercentOutput,0);
 
     }
 

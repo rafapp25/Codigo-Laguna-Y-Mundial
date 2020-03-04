@@ -18,6 +18,7 @@ public class intake{
     //variables de imports
     private controles localControles;
     private disparar localDisparar;
+    
     //variables de motores
     public WPI_TalonSRX motorIntake;
 
