@@ -29,6 +29,9 @@ public class drivetrain{
         motor3 = new CANSparkMax(3, MotorType.kBrushless);
         motor4 = new CANSparkMax(4, MotorType.kBrushless);
 
+        motor3.setInverted(true);
+        motor1.setInverted(true);
+
         //3 sigue a 4, 2 sigue a 1
         motor2.follow(motor1);
         motor3.follow(motor4);

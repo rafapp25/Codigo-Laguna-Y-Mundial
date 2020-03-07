@@ -39,9 +39,9 @@ public class intake{
         localControles = new controles();
         motorIntake = new WPI_TalonSRX(13);
 
-        switchSubirPelotas = new DigitalInput(0);
-        switch1 = new DigitalInput(1);
-        switch2 = new DigitalInput(2);
+        //switchSubirPelotas = new DigitalInput(0);
+        //switch1 = new DigitalInput(1);
+        //switch2 = new DigitalInput(2);
 
         //positivo es meter pelotas, negativo sacar pelotas
         motorIntake.setInverted(true);

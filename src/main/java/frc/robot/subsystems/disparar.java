@@ -90,7 +90,7 @@ public class disparar{
 
             motorDisparar.set(1);
 
-            Timer.delay(2);
+            Timer.delay(1);
 
             motorAcercar.set(.4);
             motorSubirPelotas.set(ControlMode.PercentOutput,.3);
