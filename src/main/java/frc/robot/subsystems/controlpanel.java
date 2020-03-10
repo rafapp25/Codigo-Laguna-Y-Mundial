@@ -44,9 +44,9 @@ public class controlpanel{
 
     //     m_colorMatcher = new ColorMatch();
     //     sensorColor = new ColorSensorV3(i2cPort);
-    //     localControles = new controles();
-           //motorControlPanel = new WPI_TalonSRX(6);
-    //     pistonSubirGirador = new DoubleSolenoid(1,0,7);
+        localControles = new controles();
+        motorControlPanel = new WPI_TalonSRX(6);
+        pistonSubirGirador = new DoubleSolenoid(1,0,7);
 
     //     m_colorMatcher.addColorMatch(kBlueTarget);
     //     m_colorMatcher.addColorMatch(kGreenTarget);

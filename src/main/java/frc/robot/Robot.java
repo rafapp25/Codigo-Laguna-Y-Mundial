@@ -36,18 +36,12 @@ public class Robot extends TimedRobot {
 
     //iniciar objetos de todos los otros codigos
     localControles = new controles();
-    //localControlPanel = new controlpanel();
+    localControlPanel = new controlpanel();
     localDisparar = new disparar();
     localDrivetrain = new drivetrain();
     localEscalar = new escalar();
     localIntake = new intake();
     
-
-    
-    //iniciar todas las funciones init de los subsistemas
-    
-    
-
   }
 
   @Override
@@ -57,7 +51,9 @@ public class Robot extends TimedRobot {
 
   @Override
   public void autonomousInit() {
+
     localAutonomo = new autonomo();
+    
   }
 
   @Override
@@ -74,7 +70,7 @@ public class Robot extends TimedRobot {
     localIntake.intakePeriodic();
     localDisparar.dispararPeriodic();
     localEscalar.escalarPeriodic();
-    //localControlPanel.controlPanelPeriodic();
+    localControlPanel.controlPanelPeriodic();
 
   }
 
