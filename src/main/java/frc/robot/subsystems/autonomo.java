@@ -62,14 +62,14 @@ public class autonomo{
         //se mueve hacia el trench y toma las 3 pelotas
         if (tiempoActual > 4 && tiempoActual < 7.5){
 
-            Robot.localDrivetrain.driveTrainNeo.tankDrive(-.5, -.53);
+            Robot.localDrivetrain.driveTrainNeo.tankDrive(-.55, -.59);
 
-            localIntake.motorIntake.set(.5);
+            localIntake.motorIntake.set(.45);
 
         //sale del trench    
         } else if(tiempoActual > 7.5 && tiempoActual < 11){
 
-            Robot.localDrivetrain.driveTrainNeo.tankDrive(.5, .53);
+            Robot.localDrivetrain.driveTrainNeo.tankDrive(.55, .59);
 
             localIntake.motorIntake.set(0);
 

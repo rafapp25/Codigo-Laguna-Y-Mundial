@@ -47,7 +47,7 @@ public class drivetrain{
             }
 
         if(Math.abs(localControles.controlDrivetrain.getRawAxis(1)) > .08){
-            driveTrainNeo.arcadeDrive(localControles.controlDrivetrain.getRawAxis(1), localControles.controlDrivetrain.getRawAxis(2) * localControles.controlDrivetrain.getRawAxis(1) * .8);
+            driveTrainNeo.arcadeDrive(localControles.controlDrivetrain.getRawAxis(1), localControles.controlDrivetrain.getRawAxis(2) * localControles.controlDrivetrain.getRawAxis(1) * .9);
         }
     }
 

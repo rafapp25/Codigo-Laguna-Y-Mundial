@@ -67,11 +67,11 @@ public class disparar{
             motorAcercar.set(-.5);
 
         }
-
+        //disparar normal
         else if(localControles.controlMecanismos.getRawButton(1)){
 
             motorAcercar.set(.5);
-            motorSubirPelotas.set(ControlMode.PercentOutput, .3);
+            motorSubirPelotas.set(ControlMode.PercentOutput, .35);
             
 
         } 
@@ -92,8 +92,8 @@ public class disparar{
 
             Timer.delay(1);
 
-            motorAcercar.set(.4);
-            motorSubirPelotas.set(ControlMode.PercentOutput,.3);
+            motorAcercar.set(.5);
+            motorSubirPelotas.set(ControlMode.PercentOutput,.35);
 
     }
 

@@ -53,11 +53,11 @@ public class intake{
         //funcionamiento normal del intake con el control
         if(localControles.controlDrivetrain.getRawButton(6)){
 
-            motorIntake.set(.5);
+            motorIntake.set(.45);
 
         } else if(localControles.controlDrivetrain.getRawButton(5)){
 
-            motorIntake.set(-.5);
+            motorIntake.set(-.45);
 
         } else{
 
